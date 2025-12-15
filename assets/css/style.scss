@@ -2,6 +2,10 @@
 ---
 @import "{{ site.theme }}";
 
+$header-bg-color: #422C50;
+$header-bg-color-secondary: #9034DB;
+$header-heading-color: #FFFFFF;
+
 body {
   background: #FAFFFB;
   color: #444;
