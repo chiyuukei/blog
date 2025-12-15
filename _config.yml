@@ -3,3 +3,15 @@ title: Blog
 description: ...
 show_downloads: false
 baseurl: /blog
+darkmode: false
+logo_url: //chiyuukei.github.io/tools/icon/icon.jpg
+colors:
+    gradient_left: "#155799"
+    gradient_right: "#159957"
+    header: "#fff"
+    android_theme: "#000"
+    link: "#1e6bb8"
+    section_title: "#155799"
+buttons:
+    github_hide: true
+    
