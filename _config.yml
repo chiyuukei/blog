@@ -6,5 +6,5 @@ baseurl: /blog
 url: https://chiyuukei.github.io
 
 show_downloads: false
-darkmode: false
+darkmode: true
 logo_url: https://chiyuukei.github.io/tools/icon/icon.jpg
