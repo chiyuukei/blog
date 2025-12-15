@@ -1,0 +1,53 @@
+---
+---
+@import "{{ site.theme }}";
+
+#top-nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#menu-link {
+  display: none;
+  color: #1e70bf;
+  text-decoration: none;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#menu li {
+  margin-left: 20px;
+}
+
+#menu a {
+  color: #1e70bf;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #menu {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 100%;
+  }
+  #menu.active {
+    display: flex;
+  }
+  #menu-link {
+    display: block;
+  }
+}   
