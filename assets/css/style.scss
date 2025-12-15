@@ -24,3 +24,8 @@ a:hover {
 .site-footer {
   display: none;
 }
+
+::selection {
+  background: #E1FFE3;
+  color: inherit;
+}
