@@ -1,7 +1,4 @@
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: tuur29/pages-themes-cayman
+theme: jekyll-theme-minimal   
 
 title: Blog!
 description: ...
@@ -11,14 +8,3 @@ url: https://chiyuukei.github.io
 show_downloads: false
 darkmode: false
 logo_url: https://chiyuukei.github.io/tools/icon/icon.jpg
-
-colors:
-  gradient_left: "#155799"
-  gradient_right: "#159957"
-  header: "#fff"
-  android_theme: "#000"
-  link: "#1e6bb8"
-  section_title: "#155799"
-
-buttons:
-  github_hide: true   
