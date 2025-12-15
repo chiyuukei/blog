@@ -1,12 +1,11 @@
 ---
 ---
 @import "{{ site.theme }}";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
 
 body {
   background: #FAFFFB;
-  color: #333;
-  font: lighter "Noto Sans JP", sans-serif;
+  color: #444;
+  font-family: monospace;
 }
 
 a {
