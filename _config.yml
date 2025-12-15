@@ -1,10 +1,4 @@
 theme: jekyll-theme-cayman
-
 title: Blog!
 description: ...
-baseurl: /blog
-url: https://chiyuukei.github.io
-
 show_downloads: false
-darkmode: true
-logo_url: https://chiyuukei.github.io/tools/icon/icon.jpg
