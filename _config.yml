@@ -3,6 +3,7 @@ title: お客様、ようこそ！
 description: ここは、私がゴミ捨て場を手を入れて遊び場にした場所です。会えてうれしいよ (,,>﹏<,,)
 show_downloads: false
 hide_github: true
+
 buttons:
   - text: "リポジトリへ"
     href: "https://github.com/chiyuukei/blog/"
