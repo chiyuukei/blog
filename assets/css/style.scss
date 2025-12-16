@@ -63,6 +63,8 @@ a:hover {
 
 .btn {
   font-size: 0;
+  display: inline-flex;
+  min-width: 44px;
   border-radius: 50px;
 }
 
