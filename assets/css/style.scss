@@ -62,7 +62,7 @@ a:hover {
 }
 
 .btn {
-  font-size: 0;
+  /*font-size: 0;*/
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -73,7 +73,7 @@ a:hover {
 
 .btn::after {
   content: "🐱";
-  font-size: 16px;
+  /*font-size: 16px;*/
 }   
 
 hr {
