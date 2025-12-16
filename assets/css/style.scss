@@ -62,13 +62,13 @@ a:hover {
 }
 
 .btn {
-  /*font-size: 0;*/
+  font-size: 0;
   border-radius: 50px;
 }
 
 .btn::after {
   content: "🐱";
-  /*font-size: 16px;*/
+  font-size: 0;
 }   
 
 hr {
