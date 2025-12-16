@@ -30,4 +30,4 @@ title: お客様、ようこそ！
 
 ----
 
-<div align="center" class="footer"><p>&copy;&nbsp;<script>document.write(new Date().getFullYear())</script>&nbsp;<a href="//github.com/chiyuukei">ゆう :octocat:</a>.<br />無断転載を禁じます。</p></div>
+<div align="center" class="footer"><p>&copy;&nbsp;<script>document.write(new Date().getFullYear())</script>&nbsp;<a href="//github.com/chiyuukei">ゆう 🍁</a>.<br />無断転載を禁じます。</p></div>
