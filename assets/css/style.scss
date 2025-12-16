@@ -46,11 +46,11 @@ body::before {
   }
 }
 
-@supports (-webkit-touch-callout: none) {
+/*@supports (-webkit-touch-callout: none) {
   body::before {
     background-attachment: scroll;
   }
-}
+}*/
 
 a {
   color: #9800FF;
