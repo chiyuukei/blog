@@ -55,5 +55,6 @@ title: お客様、ようこそ！
 
 
 <br />
-<br />
-<div style="display: flex; justify-content: space-between;"> <a href="/">← 戻る</a> <a href="./ㅤ/">投稿へ →</a> </div>
+<br /> 
+<a href="/" class="btn">← 戻る</a> 
+<a href="./ㅤ/" class="btn">投稿へ →</a>
