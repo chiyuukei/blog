@@ -56,7 +56,6 @@ title: お客様、ようこそ！
 
 <br />
 <br />
-<div style="display: flex; justify-content: space-between; align-items: center; height: 40px; font-size: 16px;">
-  <a href="/" style="display: block; text-decoration: none;">← 戻る</a>
-  <a href="./ㅤ/" style="display: block; text-decoration: none;">投稿へ →</a>
-</div>   
+<div align="right">
+<a href="./ㅤ/">投稿へ →</a>
+</div>
