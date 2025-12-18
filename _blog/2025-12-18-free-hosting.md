@@ -13,28 +13,28 @@ categories: [hosting]
 
 
 ```
-- https://unaux.com
-- https://surge.sh
-- https://about.readthedocs.com
-- https://dash.domain.digitalplat.org
-- https://hatenablog.jp
-- https://about.me
-- Onionshare
-- https://glitch.com
-- https://000webhost.com
-- https://freewebhostingpro.com
-- https://freehostia.com 
-- https://freeweb7.com
-- GitHub
-- Blogger
-- Netlify
-- Vercel
-- GitLab
-- Firebase Hosting
-- https://neocities․org
-- https://gitbook.io
-- https://ezyro.com
-- https://dash.cloudflare.com
-- https://heliohost.org
-- https://render.com
+https://unaux.com
+https://surge.sh
+https://about.readthedocs.com
+https://dash.domain.digitalplat.org
+https://hatenablog.jp
+https://about.me
+Onionshare
+https://glitch.com
+https://000webhost.com
+https://freewebhostingpro.com
+https://freehostia.com 
+https://freeweb7.com
+GitHub
+Blogger
+Netlify
+Vercel
+GitLab
+Firebase Hosting
+https://neocities․org
+https://gitbook.io
+https://ezyro.com
+https://dash.cloudflare.com
+https://heliohost.org
+https://render.com
 ```
