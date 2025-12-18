@@ -56,7 +56,7 @@ title: お客様、ようこそ！
 
 <br />
 <br />
-<div style="display: flex; justify-content: space-between; align-items: center; line-height: 1; font-size: 16px; padding: 0; margin: 0;">
-  <a href="/" style="text-decoration: none; display: inline-block;">← 戻る</a>
-  <a href="./ㅤ/" style="text-decoration: none; display: inline-block;">投稿へ →</a>
-</div>
+<div style="display: flex; justify-content: space-between; align-items: center; height: 40px; font-size: 16px;">
+  <a href="/" style="display: block; text-decoration: none;">← 戻る</a>
+  <a href="./ㅤ/" style="display: block; text-decoration: none;">投稿へ →</a>
+</div>   
