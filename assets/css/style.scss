@@ -97,7 +97,8 @@ a:hover {
   text-align: center;
   /*display: inline-flex;
   min-width: 44px;*/
-  border-radius: 100px;
+  /*border-radius: 100px;*/
+  border-radius: 20px 0 20px;
 }
 
 .btn::after {
