@@ -2,7 +2,15 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h2>
+  {{ page.title }}
+  {% assign published_date = page.date | date: "%s" | plus: 0 %}
+  {% assign current_date = "now" | date: "%s" | plus: 0 %}
+  {% assign time_diff = current_date | minus: published_date %}
+  {% if time_diff < 604800 %}
+    &nbsp;<span style="color: margin-left: 10px;">最新記事</span>
+  {% endif %}
+</h2>
 <p>{{ page.date | date_to_string }}</p>
 {{ content }}
 
