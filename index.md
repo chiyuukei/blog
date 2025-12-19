@@ -71,8 +71,5 @@ title: お客様、ようこそ！
 <a href="./ㅤ/">投稿へ →</a>
 </div>-->
 
-<nav style="display: flex; justify-content: space-between;">
-  <a href="/">← 戻る</a>
-  <a href="./ㅤ/">投稿へ →</a>
-</nav>
-
+<a class="left" href="/">← 戻る</a>
+<a clasa="right" href="./ㅤ/">投稿へ →</a>
