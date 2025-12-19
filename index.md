@@ -70,6 +70,6 @@ title: お客様、ようこそ！
 <a href="/blog/">🏠</a>&emsp;
 <a href="./ㅤ/">投稿へ →</a>
 </div>-->
-
-<a class="left" href="/">← 戻る</a>
+<div align="right">
 <a clasa="right" href="./ㅤ/">投稿へ →</a>
+</div>
