@@ -54,7 +54,7 @@ title: お客様、ようこそ！
 
 <ul>
   <li><a href="/">Instagram</a></li>
-  <li><a href="/">X</a></li>
+  <li><a href="/">𝕏</a></li>
   <li><a href="/">Discord</a></li>
 </ul>
 
