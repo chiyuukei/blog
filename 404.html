@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="scroll-smooth" lang="JP" data-theme="night" translate="no">
+<html class="scroll-smooth" lang="JP" data-theme="night">
     <meta charset="UTF-8">
     <meta name="robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,77 +7,202 @@
     <title>404</title>
     </head>
     <style>
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 body {
     background: #FDFAFF;
-    box-sizing: border-box;
-    font-family: Courier New;
-    /*margin: 15px;*/
-    max-width: 900px;
-    margin: 15px auto;
-    padding: 0 20px;
-    color: #222;
-    /*padding: 0;*/
+    font-family: "Syne Mono", monospace;
 }
 
-h2 {
-    font: bolder 26px "Noto Sans JP", sans-serif;
+.container {
+    margin: auto;
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 0 15px;
+    color: #222;
+    box-sizing: border-box;
+}
+
+.container h2 {
+    font: bolder 12vw "Noto Sans JP", sans-serif;
     user-select: none;
 }
 
-h2 a {
+.container h2 a {
     text-decoration: none;
     color: #222;
     cursor: none;
     user-select: none;
 }
 
-h2 a:hover {
+.container h2 a:hover {
     text-decoration: none;
     color: #9800FF;
     border: none;
-    /*color: inherit;*/
     background: none;
 }
 
-p {
+.container p {
     font: lighter 15px "Noto Sans JP", sans-serif;
 }
 
-a {
+.container a {
     color: #9800FF;
     cursor: none;
     text-decoration: none;
 }
 
-a:hover {
+.container a:hover {
     border-bottom: 1px solid #9800FF;
     color: inherit;
     background: #F3ECFF;
 }
 
 .footer {
-    border-top: 1px solid #333;
+    border-top: 1px solid #E3DAF0;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+
+.footer p {
+    font: lighter 15px "Noto Sans JP", sans-serif;
+}
+
+.footer a {
+    color: #9800FF;
+    cursor: none;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    border-bottom: 1px solid #9800FF;
+    color: inherit;
+    background: #F3ECFF;
 }
 
 ::selection {
     background: #EBCCFF;
     color: #222;
 }
+
+.weather {
+    position: fixed;
+    width: 100%;
+    height: 100% !important;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.weather:before,
+.weather:after {
+    content: "";
+    position: absolute;
+    left: -100%;
+    top: -100%;
+    right: -100%;
+    bottom: -100%;
+    pointer-events: none;
+    background: transparent repeat;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: weather;
+    animation-name: weather;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.weather:after {
+    -webkit-animation-name: weather2;
+    animation-name: weather2;
+}
+
+.weather.rain:before,
+.weather.rain:after {
+    background: url(https://raw.githubusercontent.com/chiyuukei/particles/refs/heads/main/rain/rain.png) left top;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -webkit-opacity: 0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.weather.rain:after {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes weather {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 1024px;
+    }
+}
+
+@keyframes weather {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 1024px;
+    }
+}
+
+@-webkit-keyframes weather2 {
+    from {
+        background-position: 64px 64px;
+    }
+
+    to {
+        background-position: 64px 1088px;
+    }
+}
+
+@keyframes weather2 {
+    from {
+        background-position: 64px 64px;
+    }
+
+    to {
+        background-position: 64px 1088px;
+    }
+  }
     </style>
     <body>
-        <h2><a href="javascript:history.back();">←</a></h2>
-        <h2>404 見つかりません</h2>
-        <p>入力した URL が有効ではない可能性があります。URL が検索の基準と一致していることをもう一度確認してください。</p>
+        <div class="container">
+        <h2 style="font-size:24px;"><a href="javascript:history.back();">←</a></h2>
+        <h2>404 🌧️</h2>
+        <p>お探しのページは見つかりません。入力内容が有効であることをご確認ください。</p>
         <br />
-        <div class="footer">
+        </div>
+        <div align="center" class="footer">
             <p>
                 &copy;&nbsp;<script>
                     document.write(new Date().getFullYear())
-                </script>&nbsp;<a href="//github.com/chiyuukei">狂った錬金術師</a>.&nbsp;無断転載を禁じます。
+                </script>&nbsp;<a href="//github.com/chiyuukei">狂った錬金術師</a>.<br />無断転載を禁じます。
             </p>
         </div>
-        <script src="//chiyuukei.github.io/tools/sakura.js"></script>
+        <div class="weather rain"></div>
     </body>
-  </html>
+</html>
