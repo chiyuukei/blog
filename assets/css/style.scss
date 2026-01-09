@@ -14,6 +14,10 @@ $code-text-color: #333;
 
 @import "{{ site.theme }}";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   width: 100%;
@@ -39,8 +43,8 @@ body::before {
   background: url('//raw.githubusercontent.com/chiyuukei/assets/refs/heads/main/blog/reze.jpg') no-repeat center center fixed;
   background-size: cover;
   opacity: 0.1;
-  /*z-index: -1;*/
-  z-index: -2;
+  /*z-index: -2;*/
+  z-index: -1;
   pointer-events: none;
 }
 
