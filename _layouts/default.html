@@ -51,5 +51,17 @@
         </footer>
     </main>
     <script src="https://chiyuukei.github.io/blog/assets/js/sakura.js" defer></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sakura = document.getElementById("sakura");
+    if (sakura) {
+      sakura.style.zIndex = "9999";
+      sakura.style.position = "fixed";
+      sakura.style.pointerEvents = "none";
+      sakura.style.top = "0";
+      sakura.style.left = "0";
+    }
+  });
+</script>
 </body>
   </html>
