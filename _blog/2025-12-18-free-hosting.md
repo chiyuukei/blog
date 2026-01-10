@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ウェブサイトやブログ作成のための無料ホスティングサービス
-description: none
+description: ᓀ‸ᓂ
 date: 2025-12-18
 categories: [hosting]
 ---
