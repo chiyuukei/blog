@@ -1,6 +1,7 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
 
 /*$header-bg-color: rgba(138, 43, 226, 0.9);
@@ -147,4 +148,9 @@ h6 {
   height: 100%;
   pointer-events: none;
   z-index: 9999 !important;
+}
+
+code,
+pre {
+  font-family: "Syne Mono", monospace;
 }
